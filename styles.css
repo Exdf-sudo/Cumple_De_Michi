@@ -1,0 +1,88 @@
+body {
+    background-color: #CBFBF1; 
+    background-image: url('datagrafic/fondo.gif'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    font-family: "Dongle", sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.tarjeta-cumple {
+    background-color: rgba(255, 255, 255, 0.96); /* Blanco limpio con mínima transparencia */
+    border-radius: 24px; /* Esquinas muy suaves y redondeadas como el ejemplo */
+    padding: 35px 25px; /* Espaciado interno para que respiren los elementos */
+    text-align: center;
+    
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); 
+    
+    max-width: 90%;
+    width: 380px; 
+    box-sizing: border-box;
+}
+
+.fondogif img {
+    max-width: 180px; /* Restringimos el tamaño para que sea estilizado */
+    height: auto;
+    border-radius: 16px; /* Suaviza las esquinas de tu imagen o GIF */
+    margin-bottom: 20px;
+}
+
+
+h1 {
+    color: #4a5568;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.6;
+    margin: 0 0 30px 0;
+    padding: 0 10px;
+}
+
+
+.contenedor-botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Separación estética entre ambos botones */
+}
+
+.contenedor-botones button {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 28px;
+    border: none; /* Eliminamos el borde cuadrado aburrido */
+    border-radius: 50px; /* Forma de píldora idéntica al modelo de referencia */
+    cursor: pointer;
+    transition: all 0.2s ease; /* Suaviza el cambio de color al pasar el mouse */
+    min-width: 120px;
+}
+
+/* Color personalizado para el botón positivo (SÍ / SIPIRILI) */
+#btnSi {
+    background-color: #e284aa; /* Rosa pastel idéntico al botón del ejemplo */
+    color: white;
+}
+
+#btnSi:hover {
+    background-color: #d16f95; /* Se oscurece un poquito al pasar el cursor */
+    transform: scale(1.03); /* Efecto sutil de crecimiento */
+}
+
+/* Color personalizado para el botón secundario (NO / NOPOROLO) */
+#btnNo {
+    background-color: #e2e8f0; /* Gris pastel muy suave para que no compita con el SÍ */
+    color: #64748b;
+}
+
+#btnNo:hover {
+    background-color: #cbd5e1;
+    transform: scale(1.03);
+}

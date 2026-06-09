@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Sipirili! 🎉 - Felices 21 Evys!!!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+
+        * { box-sizing: border-box; }
+        body {
+            background-color: #CBFBF1; /* El mismo color pastel de tu fondo principal */
+            background-image: url('datagrafic/fondo.gif'); /* Mismo fondo de prado y nubes */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 50px; /* Espacio vertical entre diapositivas */
+            place-items: center;
+            margin: 0;
+            padding: 60px 0;
+            font-family: "Dongle", sans-serif;
+        }
+
+        .slide-container {
+            background-color: rgba(255, 255, 255, 0.96); /* Tarjeta blanca flotante */
+            border-radius: 24px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+            display: flex;
+            flex-direction: column;
+            height: 600px; /* Proporción ideal de slide */
+            width: 900px;
+            padding: 45px;
+            justify-content: flex-start;
+            overflow: hidden;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        /* TIPOGRAFÍAS CORREGIDAS (DONGLE) */
+        h1, h2, h3, .slide-title {
+            color: #4a5568;
+            margin: 0;
+            font-weight: 700;
+            line-height: 1.1;
+        }
+
+        p, li, td, th {
+            font-size: 28px; /* Ajustado porque la fuente Dongle es delgada */
+            line-height: 1.2;
+            color: #4a5568;
+        }
+
+        .slide-title {
+            font-size: 50px;
+            margin-bottom: 25px;
+            border-bottom: 3px solid #fecdd3; /* Línea rosa pastel */
+            padding-bottom: 5px;
+            width: 100%;
+        }
+
+        .content-area {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            width: 100%;
+            align-items: center;
+        }
+
+        /* ESTILO DE LA CARTA CENTRADA */
+        .single-letter-card {
+            background-color: #fff1f2; /* Tono rosa/fresa pastel muy suave */
+            border-radius: 20px;
+            padding: 35px;
+            border: 1px solid #ffe4e6;
+            width: 80%; /* Ancho estilizado para que quede centrada */
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.02);
+        }
+
+        /* BOTÓN VOLVER */
+        .btn-volver {
+            background-color: #e284aa;
+            color: white;
+            padding: 8px 35px;
+            font-size: 28px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            display: inline-block;
+            margin-top: 20px;
+            transition: all 0.2s ease;
+        }
+        .btn-volver:hover { 
+            background-color: #d16f95;
+            transform: scale(1.05); 
+        }
+
+        /* GRÁFICOS Y TABLAS PASTEL */
+        .chart-container { width: 100%; }
+        .bar { display: flex; align-items: center; gap: 20px; margin-bottom: 20px; }
+        .bar-label { width: 180px; text-align: right; font-weight: 700; font-size: 28px; }
+        .bar-track { background: #f1f5f9; flex-grow: 1; height: 35px; border-radius: 15px; overflow: hidden; }
+        .bar-fill { height: 100%; background: linear-gradient(90deg, #fecdd3, #e284aa); color: white; display: flex; align-items: center; justify-content: flex-end; padding-right: 15px; font-weight: 700; font-size: 22px; }
+
+        table { width: 100%; border-collapse: collapse; }
+        th { background: #fff1f2; padding: 12px; text-align: left; font-size: 30px; border-radius: 10px 10px 0 0; }
+        td { padding: 14px; border-bottom: 2px solid #f1f5f9; font-size: 26px; }
+
+        /* NÚMERO DE DIAPOSITIVA (Para look ejecutivo de esquina) */
+        .slide-number {
+            position: absolute;
+            bottom: 20px;
+            right: 30px;
+            font-size: 20px;
+            color: #cbd5e1;
+        }
+    </style>
+</head>
+<body>
+
+<div class="slide-container" style="background: linear-gradient(135deg, #fff1f2 0%, #ffffff 100%);">
+    <div class="content-area">
+        <h1 style="font-size: 90px; color: #e284aa;">¡Sipirili! 🎉</h1>
+        <p style="font-size: 36px; color: #64748b; margin: 0;">Una pequeña presentación en honor a tu linda persona</p>
+        <p style="margin-top: 30px; font-size: 28px;">Preparado especialmente para: <strong>Evys <3</strong></p>
+    </div>
+    <div class="slide-number">1</div>
+</div>
+
+<div class="slide-container" style="background-color: #f0fdf4;">
+    <div class="content-area">
+        <h2 style="font-size: 65px; margin-bottom: 10px;">I. El Mensaje Central</h2>
+        <p style="font-size: 36px; max-width: 750px; text-align: center; color: #475569;">
+            Una carta abierta del por qué hoy es tu día y es importante :D...
+        </p>
+    </div>
+    <div class="slide-number">2</div>
+</div>
+
+<div class="slide-container">
+    <h2 class="slide-title">Carta de Felicitación 💌</h2>
+    <div class="content-area">
+        <div class="single-letter-card">
+            <h3 style="font-size: 38px; color: #e284aa; margin-bottom: 10px;">Desde el corazón ✨</h3>
+            
+            <p style="margin: 0; font-size: 24px;">
+                Felicidades por tus 21 vueltas al sistema solar y deseo que le des muchisisisisimas más vueltas siempre acompañada de las personas que te hacen feliz y haciendo las cosas que te hacen feliz como el Fortinaiti y los K-Dramas xd. Mi cerebro en este momento ya se apagó y no se que más escribir pero de verdad eres una persona muy incréible que de vedad vale la pena tener cerca, que merece ser feliz todos los dias, aun que es evidente que no todos los días buenos pues son cosas de la vida pero jamás olvides que estoy dispuesto para apoyarte. Sigue siendo esa persona sonriente, amable, alegre, chistosa que eres, esa escencia tuya que es encantadora... eres un Sol (Cosa que nadie es digno de ser llamado así, en términos nerdos y lameloidemente hablando). QUE LOS CUMPLA FELIZZZZZZZZ.... QUE LOS CUMPLA FELIZZZZZZ......... 
+            </p>
+        </div>
+    </div>
+    <div class="slide-number">3</div>
+</div>
+
+<div class="slide-container">
+    <h2 class="slide-title">El Perrito Pastelero 🐶</h2>
+    <div class="content-area">
+        <div class="two-column">
+            <div>
+                <h3 style="font-size: 34px; margin-bottom: 10px;">Representación Visual</h3>
+                <p style="margin: 0;">
+                    Nosotros
+                </p>
+            </div>
+            <div style="border: 4px solid #fecdd3; border-radius: 20px; overflow: hidden; height: 320px; display: flex; justify-content: center; align-items: center; background: white;">
+                <img src="datagrafic/pastelpastel.gif" alt="Perrito con pastel" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+            </div>
+        </div>
+    </div>
+    <div class="slide-number">4</div>
+</div>
+
+<div class="slide-container">
+    <h2 class="slide-title">Distribución del Pastel 🍰</h2>
+    <div class="content-area">
+        <div class="two-column">
+            <div style="justify-self: center; width: 320px; height: 320px; border-radius: 50%; background: conic-gradient(#e284aa 0% 70%, #fecdd3 70% 90%, #cbd5e1 90% 100%); border: 10px solid #fff; box-shadow: 0 8px 20px rgba(0,0,0,0.05);"></div>
+            
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li style="margin-bottom: 15px; display: flex; align-items: center;"><span style="display: inline-block; width: 22px; height: 22px; background: #e284aa; border-radius: 50%; margin-right: 15px; flex-shrink: 0;"></span> <p style="margin:0;"><strong>Tu mero (70%)</strong></p></li>
+                <li style="margin-bottom: 15px; display: flex; align-items: center;"><span style="display: inline-block; width: 22px; height: 22px; background: #fecdd3; border-radius: 50%; margin-right: 15px; flex-shrink: 0;"></span> <p style="margin:0;">Yo mero (20%)</p></li>
+                <li style="margin-bottom: 15px; display: flex; align-items: start;"><span style="display: inline-block; width: 22px; height: 22px; background: #cbd5e1; border-radius: 50%; margin-right: 15px; margin-top: 8px; flex-shrink: 0;"></span> <p style="margin:0;">Sobras para mañana porque sino amanecemos con las arterias tapadas y una posible diabetes en potencia xd (10%)</p></li>
+            </ul>
+        </div>
+    </div>
+    <div class="slide-number">5</div>
+</div>
+
+<div class="slide-container">
+    <h2 class="slide-title">Crecimiento de Alegría 📊</h2>
+    <div class="content-area">
+        <div class="chart-container">
+            <div class="bar">
+                <div class="bar-label">Día Normal</div>
+                <div class="bar-track"><div class="bar-fill" style="width: 30%;">30%</div></div>
+            </div>
+            <div class="bar">
+                <div class="bar-label">Fin de Semana</div>
+                <div class="bar-track"><div class="bar-fill" style="width: 55%;">55%</div></div>
+            </div>
+            <div class="bar">
+                <div class="bar-label">Tu Cumpleaños</div>
+                <div class="bar-track"><div class="bar-fill" style="width: 100%; background: #e284aa;">100% EXTREMO 🔥</div></div>
+            </div>
+        </div>
+        </div>
+    <div class="slide-number">6</div>
+</div>
+
+<div class="slide-container">
+    <div class="content-area">
+        <div style="font-size: 90px; color: #fecdd3; line-height: 0; margin-bottom: -10px;">“</div>
+        <h2 style="font-size: 46px; text-align: center; font-style: italic; max-width: 800px; font-weight: 400;">
+            "La vida no se mide por las veces que respiras, sino por los momentos (y pasteles) que te dejan sin aliento."
+        </h2>
+        <p style="font-size: 32px; margin-top: 20px; color: #e284aa;">— Enrique un martes  cualquiera a las 6 am</p>
+    </div>
+    <div class="slide-number">7</div>
+</div>
+
+<div class="slide-container">
+    <h2 class="slide-title">Checklist de Cumpleañera ✅</h2>
+    <div class="content-area">
+        <table style="width: 100%;">
+            <thead>
+                <tr>
+                    <th style="color: #4a5568;">Objetivo</th>
+                    <th style="color: #4a5568;">Estado</th>
+                    <th style="color: #4a5568;">Prioridad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Recibir mucho amor y abrazos</td>
+                    <td><i class="fa-solid fa-check" style="color: #22c55e;"></i> En curso</td>
+                    <td style="color: #e284aa; font-weight: 700;">Crítica</td>
+                </tr>
+                <tr>
+                    <td>Comer pastel delicioso (gpi)</td>
+                    <td><i class="fa-solid fa-hourglass-start" style="color: #eab308;"></i> Pendiente</td>
+                    <td style="font-weight: 700;">Muy Alta</td>
+                </tr>
+                <tr>
+                    <td>Ser la más feliz del universo</td>
+                    <td><i class="fa-solid fa-check" style="color: #22c55e;"></i> Ese es mi intento</td>
+                    <td style="color: #64748b;">Absoluta</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="slide-number">8</div>
+</div>
+
+<div class="slide-container" style="background: linear-gradient(135deg, #ffffff 0%, #fff1f2 100%);">
+    <div class="content-area">
+        <h2 style="font-size: 55px; text-align: center; margin-bottom: 5px;">ESO ES TODO......</h2>
+        <p style="font-size: 32px; color: #64748b; margin: 0;">:p</p>
+        
+        <a href="index.html" class="btn-volver">
+            <i class="fa-solid fa-arrow-left"></i> Volver al Inicio
+        </a>
+    </div>
+    <div class="slide-number">9</div>
+</div>
+
+</body>
+</html>
