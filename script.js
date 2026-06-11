@@ -11,5 +11,5 @@ function irAweno() {
 }
 
 function dispararAlerta() {
-    alert("Descarga en curso(7KB)...");
+    alert("Descarga en completada... (7KB)");
 }
